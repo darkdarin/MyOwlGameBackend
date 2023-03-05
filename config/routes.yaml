@@ -1,5 +1,6 @@
 controllers:
     resource:
-        path: ../src/Controller/
-        namespace: App\Controller
+        path: ../src/Controller/PackEditor
+        namespace: App\Controller\PackEditor
     type: attribute
+    prefix: '/api/packedit'
